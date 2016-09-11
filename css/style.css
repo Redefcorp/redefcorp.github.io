@@ -11,7 +11,7 @@ body{
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #496174;
+    color: #FFFFFF;/*#496174*/
 }
 
 p{  
@@ -448,7 +448,7 @@ header{
 
 /*===== about us ====*/
 .about-us{
-    background-color: #F3F6FA;
+    background-color: #6251da;/*#F3F6FA*/
     padding-bottom: 50px;
 }
 
@@ -458,11 +458,11 @@ header{
 }
 
 .default-bg{
-    background-color: #01bf86;
+    background-color: #6251da;/*#01bf86*/
 }
 
 .about-content > p{
-    color: #707070;
+    color: #FFFFFF;/*#707070*/
     font-size: 16px;
     margin-bottom: 35px;
     line-height: 1.7;
@@ -865,7 +865,7 @@ strong.expert-tag{
 /*===== footer ====*/
 .footer_bottom {
     padding: 2em 0;
-    background: #01bf86;
+    background: #6251da;
 }
 .copy {
     text-align: center;
@@ -879,7 +879,7 @@ strong.expert-tag{
     border-bottom: 1px dotted;
 }
 .copy p a:hover {
-    color: #e5e52d;
+    color: #01bf86;
     border-bottom: 1px solid;
     text-decoration: none;
 }
@@ -901,6 +901,10 @@ strong.expert-tag{
 }
 a.social-icon:hover, a.social-icon:active, a.social-icon:focus {
     text-decoration: none;
-    color: #e5e52d;
-    border-color: #e5e52d;
+    color: #01bf86;
+    border-color: #01bf86;
+}
+
+.modal-title, h3 {
+    color: #000000;
 }
